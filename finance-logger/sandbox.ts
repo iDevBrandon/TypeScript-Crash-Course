@@ -30,31 +30,33 @@
 
 // TypeScript Tutorial #5 - Explicit Types
 // explicit types
-let character: string;
-let age: number;
-let isLoggedIn: boolean;
+// let character: string;
+// let age: number;
+// let isLoggedIn: boolean;
 
-age = 30;
-isLoggedIn = true;
+// age = 30;
+// isLoggedIn = true;
 
-// arrays
-let ninja: string[] = [];
+// // arrays
+// let ninja: string[] = [];
 
-ninja.push("shan");
+// ninja.push("shan");
 
-// union types
-let mixed: (string | number | boolean)[] = [];
-mixed.push("shanks");
-mixed.push(20);
-mixed.push(true);
-console.log(mixed);
+// // union types
+// let mixed: (string | number | boolean)[] = [];
+// mixed.push("shanks");
+// mixed.push(20);
+// mixed.push(true);
+// console.log(mixed);
 
-// objects
-let ninjaOne: object;
-ninjaOne = { name: "ninja", age: 30 };
+// // objects
+// let ninjaOne: object;
+// ninjaOne = { name: "ninja", age: 30 };
 
-let ninjaTwo: {
-  name: string;
-  email: string;
-  age: number;
-};
+// let ninjaTwo: {
+//   name: string;
+//   email: string;
+//   age: number;
+// };
+
+// TypeScript Tutorial #6 - Dynamic (any) Types
